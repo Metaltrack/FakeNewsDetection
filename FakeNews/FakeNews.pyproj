@@ -22,9 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FakeNews.py" />
-    <Compile Include="predict.py">
-      <SubType>Code</SubType>
-    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="News _dataset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="News _dataset\Fake.csv" />
+    <Content Include="News _dataset\True.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
